@@ -1,1 +1,7 @@
 # created by virtualenv automatically
+__pycache__/
+*.py[codz]
+*$py.class
+
+/Scripts/
+/Lib/
