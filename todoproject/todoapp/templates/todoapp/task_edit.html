@@ -1,8 +1,8 @@
-<h2>タスク追加</h2>
+<h2>タスク編集</h2>
 <a href="{% url 'tasks' %}">戻る</a>
 
 <form method="post">
     {% csrf_token %}
     {{ form.as_p }}
-    <input type="submit" value="追加" />
+    <input type="submit" value="更新" />
 </form>
